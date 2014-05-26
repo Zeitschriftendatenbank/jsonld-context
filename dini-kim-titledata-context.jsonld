@@ -11,18 +11,19 @@
     "owl": "http://www.w3.org/2002/07/owl#",
     "umbel": "http://umbel.org/umbel#",
     "isbd": "http://iflastandards.info/ns/isbd/elements/",
+    "marcrel": "http://id.loc.gov/vocabulary/relators/",
     "Periodical": {
-			"@id": "bibo:Periodical",
-			"@type": "@id"
-		},
+      "@id": "bibo:Periodical",
+      "@type": "@id"
+    },
     "Series": {
-			"@id": "bibo:Series",
-			"@type": "@id"
-		},
-		"type": {
-			"@id": "rdfs:type",
-			"@type": "@id"
-		},
+      "@id": "bibo:Series",
+      "@type": "@id"
+    },
+    "type": {
+      "@id": "rdfs:type",
+      "@type": "@id"
+   },
     "identifier": {
       "@id": "dc:identifier",
       "@type": "xsd:string"
@@ -156,7 +157,7 @@
       "@type": "xsd:string"
     },
     "cre": {
-      "@id": "http://id.loc.gov/vocabulary/relators/cre",
+      "@id": "marcrel:cre",
       "@type" "@id"
     },
     "relation": {
