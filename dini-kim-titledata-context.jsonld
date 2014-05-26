@@ -1,0 +1,179 @@
+{
+  "@context":
+  {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs" "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdau": "http://rdaregistry.info/Elements/u/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "umbel": "http://umbel.org/umbel#",
+    "isbd": "http://iflastandards.info/ns/isbd/elements/",
+    "Periodical": {
+			"@id": "bibo:Periodical",
+			"@type": "@id"
+		},
+    "Series": {
+			"@id": "bibo:Series",
+			"@type": "@id"
+		},
+		"type": {
+			"@id": "rdfs:type",
+			"@type": "@id"
+		},
+    "identifier": {
+      "@id": "dc:identifier",
+      "@type": "xsd:string"
+    },
+    "title": {
+      "@id": "dc:title",
+      "@type": "xsd:string" 
+    },
+   "otherTitleInformation": {
+      "@id": "rdau:P60493",
+      "@type": "xsd:string"
+    },
+   "uniformTitle": {
+      "@id": "dct:alternative",
+      "@type": "xsd:string"
+    },
+   "shortTitle": {
+      "@id": "bibo:shortTitle",
+      "@type": "xsd:string"
+    },
+   "parallelTitle": {
+      "@id": "dct:alternative",
+      "@type": "xsd:string"
+    },
+    "creator": {
+      "@id": "dct:creator",
+      "@type": "@id"
+    },
+   "creatorName": {
+      "@id": "dc:creator",
+      "@type": "xsd:string"
+    },
+   "contributor": {
+      "@id": "dct:contributor",
+      "@type": "@id"
+    },
+   "contributorName": {
+      "@id": "dc:contributor",
+      "@type": "xsd:string"
+    },
+   "publicationStatement": {
+      "@id": "rdau:P60333",
+      "@type": "xsd:string"
+    },
+   "placeOfPublication": {
+      "@id": "rdau:P60163",
+      "@type": "xsd:string"
+    },
+   "publisher": {
+      "@id": "dc:publisher",
+      "@type": "xsd:string"
+    },
+   "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:string"
+    },
+   "sameAs": {
+      "@id": "owl:sameAs",
+      "@type": "@id"
+    },
+   "similar": {
+      "@id": "umbel:isLike",
+      "@type": "@id"
+    },
+   "issn": {
+      "@id": "bibo:issn",
+      "@type": "xsd:string"
+    },
+   "eissn": {
+      "@id": "bibo:eissn",
+      "@type": "xsd:string"
+    },
+   "lccn": {
+      "@id": "bibo:lccn",
+      "@type": "xsd:string"
+    },
+   "oclcnum": {
+      "@id": "bibo:oclcnum",
+      "@type": "xsd:string"
+    },
+   "isbn": {
+      "@id": "bibo:isbn",
+      "@type": "xsd:string"
+    },
+   "medium": {
+      "@id": "dct:medium",
+      "@type": "@id"
+    },
+   "hasPart": {
+      "@id": "dct:hasPart",
+      "@type": "@id"
+    },
+   "isPartOf": {
+      "@id": "dct:isPartOf",
+      "@type": "@id"
+    },
+   "hasVersion": {
+      "@id": "dct:hasVersion",
+      "@type": "@id"
+    },
+   "isFormatOf": {
+      "@id": "dct:isFormatOf",
+      "@type": "@id"
+    },
+   "precededBy": {
+      "@id": "rdau:P60261",
+      "@type": "@id"
+    },
+   "succeededBy": {
+      "@id": "rdau:P60278",
+      "@type": "@id"
+    },
+   "language": {
+      "@id": "dct:language",
+      "@type": "@id"
+    },
+   "extent": {
+      "@id": "isbd:P1053",
+      "@type": "xsd:string"
+    },
+   "edition": {
+      "@id": "bibo:edition",
+      "@type": "xsd:string"
+    },
+   "bibliographicCitation": {
+      "@id": "dct:bibliographicCitation",
+      "@type": "xsd:string"
+    },
+   "coden": {
+      "@id": "bibo:coden",
+      "@type": "xsd:string"
+    },
+    "cre": {
+      "@id": "http://id.loc.gov/vocabulary/relators/cre",
+      "@type" "@id"
+    },
+    "relation": {
+      "@id": "dc:relation",
+      "@type" "@id"
+    },
+    "contributorList": {
+      "@id": "bibo:contributorList",
+      "@type" "@list"
+    },
+    "subject": {
+      "@id": "dcterms:subject",
+      "@type" "@id"
+    },
+    "accrualPeriodicity": {
+      "@id": "dcterms:accrualPeriodicity",
+      "@type" "@id"
+    }
+  }
+}
