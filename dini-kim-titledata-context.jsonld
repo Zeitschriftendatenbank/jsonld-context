@@ -163,23 +163,23 @@
     },
     "relation": {
       "@id": "dc:relation",
-      "@type" "@id"
+      "@type": "@id"
     },
     "contributorList": {
       "@id": "bibo:contributorList",
-      "@type" "@list"
+      "@type": "@list"
     },
     "subject": {
       "@id": "dcterms:subject",
-      "@type" "@id"
+      "@type": "@id"
     },
     "accrualPeriodicity": {
       "@id": "dcterms:accrualPeriodicity",
-      "@type" "@id"
+      "@type": "@id"
     },
     "isPrimaryTopicOf": {
       "@id": "foaf:isPrimaryTopicOf",
-      "@type" "@id"
+      "@type": "@id"
     }
   }
 }
