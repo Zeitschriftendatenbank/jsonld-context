@@ -159,7 +159,7 @@
     },
     "cre": {
       "@id": "marcrel:cre",
-      "@type" "@id"
+      "@type": "@id"
     },
     "relation": {
       "@id": "dc:relation",
