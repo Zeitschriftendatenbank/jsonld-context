@@ -167,7 +167,8 @@
     },
     "contributorList": {
       "@id": "bibo:contributorList",
-      "@type": "@list"
+      "@type": "@id",
+      "@container": "@list"
     },
     "subject": {
       "@id": "dcterms:subject",
