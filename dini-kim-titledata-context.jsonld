@@ -13,6 +13,7 @@
     "isbd": "http://iflastandards.info/ns/isbd/elements/",
     "marcrel": "http://id.loc.gov/vocabulary/relators/",
     "foaf": "http://xmlns.com/foaf/0.1/",
+    "schema": "http://schema.org/",
     "Periodical": {
       "@id": "bibo:Periodical",
       "@type": "@id"
